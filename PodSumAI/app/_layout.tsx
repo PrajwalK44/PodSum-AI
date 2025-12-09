@@ -28,7 +28,7 @@ function RootLayoutNav() {
           targetRoute = "/(onboarding)/startup";
         } else if (isAuthenticated) {
           // User is logged in, go to app
-          targetRoute = "/(app)";
+          targetRoute = "/(app)/home";
         } else {
           // User has onboarded but not logged in, show auth
           targetRoute = "/(auth)/welcome";

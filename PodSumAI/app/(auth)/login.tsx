@@ -39,7 +39,7 @@ export default function Login() {
 
       if (result.success) {
         // Navigate to app
-        router.replace("/(app)");
+        router.replace("/(app)/home");
       } else {
         // Check if user needs verification
         if (result.message === "User not verified") {
