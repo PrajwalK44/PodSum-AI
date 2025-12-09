@@ -44,15 +44,15 @@ export default function OnboardingScreen() {
           <View key={item.id} className="flex items-center justify-center p-5">
             <Image
               source={item.image}
-              className="w-full ml-5 h-[400px]"
+              className="w-full ml-5 h-[350px]"
               resizeMode="contain"
             />
-            <View className="flex flex-row items-center justify-center w-full mt-10">
-              <Text className="text-white text-6xl font-bold mx-10 text-center font-Jakarta-Bold">
+            <View className="flex flex-row items-center justify-center w-full mt-5">
+              <Text className="text-white text-3xl font-bold mx-10 text-center font-Jakarta-Bold">
                 {item.header}
               </Text>
             </View>
-            <Text className="text-3xl font-Jakarta-SemiBold text-center text-[#9ca3af] mx-10 mt-10">
+            <Text className="text-xl font-Jakarta-SemiBold text-center text-[#9ca3af] mx-10 mt-5">
               {item.subtext}
             </Text>
           </View>

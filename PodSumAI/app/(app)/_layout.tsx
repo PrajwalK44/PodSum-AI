@@ -81,7 +81,7 @@ export default function AppLayout() {
           name="home"
           options={{
             title: "Home",
-            tabBarIcon: ({ color }) => (
+            tabBarIcon: ({ color }:any) => (
               <Ionicons name="home" size={28} color={color} />
             ),
           }}
@@ -90,7 +90,7 @@ export default function AppLayout() {
           name="history"
           options={{
             title: "History",
-            tabBarIcon: ({ color }) => (
+            tabBarIcon: ({ color }:any) => (
               <Ionicons name="time" size={28} color={color} />
             ),
           }}
@@ -99,7 +99,7 @@ export default function AppLayout() {
           name="live"
           options={{
             title: "Live",
-            tabBarIcon: ({ color }) => (
+            tabBarIcon: ({ color }:any) => (
               <Ionicons name="mic" size={28} color={color} />
             ),
           }}
@@ -108,7 +108,7 @@ export default function AppLayout() {
           name="profile"
           options={{
             title: "Profile",
-            tabBarIcon: ({ color }) => (
+            tabBarIcon: ({ color }:any) => (
               <Ionicons name="person" size={28} color={color} />
             ),
           }}
